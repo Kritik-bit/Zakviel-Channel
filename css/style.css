@@ -1,0 +1,229 @@
+body{
+	background-color:black;
+}
+
+.box1{
+
+	background-color: #343A40 ;
+	height: 50px;
+	width: 101.1%;
+	opacity: 0.93;
+	
+	position: fixed;
+	z-index: 999999;
+	border:1px;
+	border-radius: 6px 6px 0 0;
+	
+	
+}
+.box1 button {
+	height: 90%;
+	width:100%;
+	font-size: 26px;
+
+}
+.box1 h1{
+	font-size: 40px;
+	color: #fff;
+
+}
+.box1 a:hover {
+	border:3px solid #31C118;
+
+}
+.BGI3{
+	background: url(../img/bgi3.jpg)center center ;
+	
+	
+	position: absolute;
+	opacity:0.2;
+	width:100%;
+ 	height: 100%;
+
+}
+.headtext strong{
+	font-size: 35px;
+}
+
+.BGI4{
+	opacity:1;
+	padding: 7% 0%;
+	
+
+
+}
+.header3 p{
+	opacity:1;
+}
+
+
+.bgi{
+	background:url(../img/bgi1.jpg) center center ;
+	padding-top: ;
+
+}
+
+.bgi4{
+	background-color: #FFCB53;
+	height: 2px;
+	opacity:0.91;
+}
+.bgi3{
+	background:url(../img/bgi1.jpg) center  ;
+}
+	
+.bgi1{
+	background: #2e2e2e;
+	border:5px;
+	border-radius: 6px 6px 0 0;
+	padding-top: 50px;
+	opacity: 0.91;
+}
+.bgi1 strong{
+	font-size: 27px;
+	color: #31C118;
+}
+.header{
+	
+	padding: 15px;
+	
+
+}
+.header2{
+  font-size: 23px;
+  color: #fff;
+
+}
+.line{
+	height:2px;
+	width:100%;
+	background-color: #31C118;
+}
+.bgi2{
+	background: #2e2e2e;
+	opacity:0.9;
+	
+}.fotorama{
+	padding:10px;
+	width:100%;
+}
+
+
+
+
+.p1{
+	font-family:;
+	font-size: 32px;
+	font-weight: 700;
+	color: #fff;
+	padding-top: 12px;
+}
+.line1{
+	height:2px;
+	width:100%;
+	background-color: #31C118;
+	
+}
+.p1 a{
+	color:#FFf;
+}
+.p1 a:hover{
+	color:#FFCB53;
+	border:2px 0 solid #FFCB53 ;
+}
+.p2{
+	font-size: 18px;
+	color: #fff;
+}
+.p2 strong{
+	color: #31C118;
+	font-size: 20px;
+}
+.p4{
+	font-family:BRa;
+	font-size: 45px;
+	font-weight: 700;
+	color: #31C118;
+	padding-top: 12px;
+}
+.bgi5{
+	background-color: #33393F;
+	
+	width:100%;
+}
+.img3{
+	padding: 20px;
+}
+.p{
+	color: #fff;
+	font-size: 20px;
+}
+.a2 a{
+	color: #2DAF16; 
+}
+.img4{
+	padding: 8px;
+
+	border: 2px  solid #2DAF16;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face{
+	font-family:BRa;
+	src: url(../font/4266.ttf);
+	font-style: normal;
+	font-weight: normal;
+
+}
+
+
+@media screen and (max-width: 575px){
+.box1{
+	position: static;
+	text-align:center;
+	display:inline; 
+	opacity: 0.7;
+	background-color: #343A40;
+	
+}
+
+
+
+
+	
+.box1 button{
+	margin-bottom: 2px;
+	border:3px solid #717171;
+	font-size: 15px;
+	font-weight: 700;
+
+}
+.bgi1{
+	position: static;
+	padding:0;
+
+}
+
+}
